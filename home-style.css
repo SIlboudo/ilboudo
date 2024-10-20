@@ -1,0 +1,310 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #F3F4F6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 5px 8px #1F2937;
+    z-index: 1000;
+    margin-bottom: 20px;
+}
+
+.profil_name {
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.profil_forname {
+    color: #F59E0B;
+}
+
+.menu {
+    background-color: #3B82F6;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu-items {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px;
+    transition: background-color 1s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banniere_img {
+    width: 100vw;
+    max-width: 100vw;
+    height: 80vh;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.main {
+    margin-top: 80px;
+    padding-top: 80px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    background: #ffffff;
+}
+
+.bio_title {
+    color: #3B82F6;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+    text-shadow: -1px -1px 0 #1F2937, 1px -1px 0 #1F2937, -1px 1px 0 #1F2937, 1px 1px 0 #1F2937;
+}
+
+.bio_text {
+    padding-bottom: 50px;
+    text-align: justify;
+}
+
+.bio_main_div {
+    margin: 30px;
+}
+
+.bio_div {
+    display: flex;
+    text-align: center;
+}
+
+.bio_img {
+    width: 70%;
+    height: 100%;
+    border-radius: 2px;
+    box-shadow: 2px 0px 5px #1F2937;
+}
+
+.bio_left {
+    width: 60vw;
+}
+
+.bio_right {
+    width: 40vw;
+}
+
+/*Mes domaines de compétences*/
+
+.competence_title {
+    color: #3B82F6;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+    text-shadow: -1px -1px 0 #1F2937, 1px -1px 0 #1F2937, -1px 1px 0 #1F2937, 1px 1px 0 #1F2937;
+}
+
+.competence_div {
+    display: flex;
+}
+
+.sig_div, .dg_div {
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    border: 2px solid #1F2937;
+    padding: 10px;
+    background: #f3c679;
+}
+
+.sig_p, .dg_p {
+    color: #1F2937;
+    font-weight: 700;
+    margin: 20px;
+    border: 2px solid #1F2937;
+    padding: 10px;
+    background: #3B82F6;
+}
+
+.sig_p_content, .dg_p_content {
+    text-align: left;
+}
+
+.bullet_point_experience {
+    border: 5px solid #3B82F6;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.bullet_point_education {
+    border: 5px solid #F59E0B;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.experience, .education {
+    padding: 20px;
+}
+
+/* Réalisations */
+
+
+.realisation_title {
+    color: #3B82F6;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+    text-shadow: -1px -1px 0 #1F2937, 1px -1px 0 #1F2937, -1px 1px 0 #1F2937, 1px 1px 0 #1F2937;
+}
+
+.realisation_img {
+    width: 100px;
+    margin: 10px;
+}
+
+.realisation_flex {
+    display: flex;
+}
+
+.realisation_sig_title, .realisation_dg_title {
+    color: #1F2937;
+    font-weight: 700;
+    margin: 20px;
+    text-align: center;
+}
+
+.realisation_sig_p_content, .realisation_dg_p_content {
+    display: flex;
+}
+
+.realisation_sig_div {
+    width: 40%;
+    margin-left: 13%;
+    text-align: center;
+}
+.realisation_dg_div {
+    width: 40%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+/*Education*/
+
+.education_main_div {
+    margin-bottom: 50px;
+}
+
+.education_title {
+    color: #3B82F6;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+    text-shadow: -1px -1px 0 #1F2937, 1px -1px 0 #1F2937, -1px 1px 0 #1F2937, 1px 1px 0 #1F2937;
+}
+
+.education_content {
+    padding-left: 80px;
+}
+
+
+/*Experiences*/
+
+.experience_main_div {
+    margin-bottom: 50px
+}
+
+.experience_content {
+   padding-left: 80px;
+}
+
+.experience_title {
+    color: #3B82F6;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+    text-shadow: -1px -1px 0 #1F2937, 1px -1px 0 #1F2937, -1px 1px 0 #1F2937, 1px 1px 0 #1F2937;
+}
+
+
+/*Contact*/
+
+.contact_main_div {
+    padding-bottom: 50px;
+}
+
+.contact_title {
+    color: #3B82F6;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+    text-shadow: -1px -1px 0 #1F2937, 1px -1px 0 #1F2937, -1px 1px 0 #1F2937, 1px 1px 0 #1F2937;
+}
+
+.contact_img {
+    width: 100%;
+    height: 200px;
+}
+
+input[type="text"], input[type="email"], input[type="number"], textarea{
+    width: 60%;
+    height: 30px;
+    margin-bottom: 20px;
+    background: rgb(238, 239, 240);
+}
+
+textarea{
+    width: 60%;
+    height: 100px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    
+    margin-right: 20px;
+}
+
+button {
+    width: 20%;
+    height: 40px;
+    background: green;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/*Footer*/
+
+.main_footer {
+    background: #1F2937;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.author {
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    color: #FFF;
+    font-weight: 600;
+}
